@@ -7,7 +7,7 @@ public class factlib {
         System.loadLibrary("ndktest");
     }
 
-    public static void callfact(int n){
-        new factlib().helloWorld(n);
+    public static double callfact(int n){
+        return (new factlib().helloWorld(n));
     }
 }
